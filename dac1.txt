@@ -1,0 +1,116 @@
+>'DAC 2202 VER 6.12  
+'SID@@L1769 @G
+'ACU parameter dump...
+'CMD    Value   Description     Result
+mA      255     '
+mB      243     'El Trim        = -0013
+mC      000     '
+mD      042     'Az Trim        = 0042
+mF      000     'Auto Threshold = 000
+mG      000     'El Step Size   = 000
+mH      000     'Az Step Size   = 000
+mI      000     'Step Integral  = 000
+mJ      015     'Search Inc     = 015
+mK      100     'Search Limit   = 100
+mL      030     'Search Delay   = 030
+mM      040     'Sweep Increment= 040
+mN      069     'System Type    = 069
+mO      002     'Gyro Type      = 002
+mP      072     'Polang Type    = 072
+mQ      029     '24v Polang Offset= 029
+mR      090     '24v Polang Scale= 090
+mS      003     '
+mT      232     'AZ Limit 1     = 1000
+mU      010     '
+mV      140     'AZ Limit 2     = 2700
+mW      002     'Polang Tx Type = 002
+mY      000     '
+mZ      000     'AZ Limit3      = 0000
+m[      000     '
+m\      000     'AZ Limit4      = 0000
+m]      000     '
+m^      000     'AZ Limit5      = 0000
+m_      000     '
+m`      000     'AZ Limit6      = 0000
+mb      000     '
+mc      199     'Lat            = 019.9
+md      083     'Lat ns         = S
+me      001     '
+mf      139     'Lon            = 039.5
+mg      087     'Lon ew         = W
+mh      001     '
+mi      244     'SAT            = 050.0
+mj      087     'Sat ew         = W
+mk      004     '
+ml      056     'Hdg            = 180.0
+mm      007     '
+mn      009     'R Hdg          = 180.1
+mo      006     '
+mp      084     'THRS           = 1620
+mq      005     '
+mr      187     'Freq / MHz     = 1467
+ms      044     '
+mt      064     'Baud / KHz     = 11328 / 0708
+mu      112     'FEC Tone Volt  = 112
+mv      002     'POL SEL        = 002
+mw      110     '
+mx      123     'AGC            = 1767
+my      098     '
+mz      128     'Ext AGC/Modem  = 1576
+m{      000     '
+m|      091     'Remote POL     = 0091
+m}      000     '
+m~      000     'Target NID     = 0000
+m       033     'Dispt          = 033
+m€      000     'KuDisp         = 000
+m       130     'TDisp          = 130
+m‚      000     'Pol5 Offset    = 000
+mƒ      000     'Pol5 Scale     = 000
+m„      000     '
+m…      000     'AZ Limit8      = 0000
+m†      180     'EL Limit12     = 0900
+m‡      180     'EL Limit34     = 0900
+mˆ      180     'EL Limit56     = 0900
+m‰      180     'EL Limit78     = 0900
+mŠ      000     'SatSkew        = 0000
+
+'Comm IF Ver 1.20 
+'CommIF parameter dump...
+'CMD    Value           Description             Enabled Secured
+[I      10.129.31.3     'IP Address
+[N      255.255.255.0   'Netmask
+[G      10.129.31.1     'Gateway
+[0      2000            'TCP-0 Port             On      Off
+[1      2001            'TCP-1 Port             On      Off
+[2      2002            'TCP-2 Port (OpenAMIP)  On      Off
+[U      3000            'UDP Port               On      Off
+Fixed   49184           'UDP Port (ROAM)        On      Off
+[C      9600            'M&C Baud Rate          On      Off
+[A      4800            'NMEA A Baud Rate       On      Off
+[B      4800            'NMEA B Baud Rate       On      Off
+[D1     10000           'LO Band 1
+[D2     10750           'LO Band 2
+[D3     11300           'LO Band 3
+[D4     9750            'LO Band 4
+[D5     0               'LO Band 5
+[D6     0               'LO Band 6
+[D7     0               'LO Band 7
+[D8     0               'LO Band 8
+[H      HDT             'NMEA Heading ID
+[T      80              'Web (HTTP)             On      On
+[O      511             'Enabled Mask
+[Q      16              'Secured Mask
+
+'PCU parameter dump...
+CMD     Value   Description
+n0      022     'Pedestal Type
+n1      065     'CL Loop Gain
+n2      059     'LV Loop Gain
+n3      025     'AZ Loop Gain
+n4      011     'CL Tilt Trim
+n5      000     'LV Tilt Trim
+n6      000     'Home Flag Trim
+n7      093     'DishScan Setup
+n8      016     'Scan Rate
+n9      000     'Error Flags
+nA      128     'System ID
