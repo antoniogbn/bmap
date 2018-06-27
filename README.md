@@ -1,10 +1,10 @@
-#Blockage Mapper Reader - Seatel Antenna Controller
+# Blockage Mapper Reader - Seatel Antenna Controller
 
-##Description
+## Description
 
 - This script created in python aims to read blockage areas configured on antenna controller (specific for seatel models) and plot the data using **matplotlib**
 
-##Requirements
+## Requirements
 - **python 3.6**
 - **matplotlib**
 - **numpy**
