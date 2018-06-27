@@ -71,7 +71,6 @@ class AntennaController(object):
         for i in range(0,len(angles),2):
             init = angles[i]
             end  = angles[i+1]
-            print(init)
             for j in range(init, end):
                 ang = (j*(2*pi))/360
                 theta=[ang,ang]
